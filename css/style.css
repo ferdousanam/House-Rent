@@ -1,0 +1,511 @@
+/*font-family: 'Cherry Swash', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Tajawal', sans-serif;  */
+
+.body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.container-fluid{
+	background-color: #2D90B0;
+}
+.logo{
+    margin-top: 10px;
+   
+}
+.logo img{
+    margin-left: 22px;
+    height:60px;
+    width:60px;
+}
+
+.header{
+    margin-top: 0px;
+}
+
+.header h3{
+    font-weight: bold;
+  
+}
+.GIT{
+    font-size: 15px;
+    color: #F7DC6F;
+    padding-left: 18px;
+}
+
+.header1 p{
+    margin-top: 30px;
+    background: #fff;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.header1 p a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#F39C12;
+}
+
+.header2 p{
+     margin-top: 22px;
+     margin-left: 70px;
+}
+.header2 p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+   margin-right: 15px;
+ 
+}
+.slider{
+    margin: 0px;
+    padding: 0px;
+}
+.slider img{
+    width:100%;
+    height: 500px;
+}
+
+
+
+.sidber{
+    background: #ECF0F1;
+    height:615px;
+}
+.sidber h2{
+    font-weight: 12px;
+    color:#000;
+    text-align: center;
+   padding-top: 40px;
+}
+.sidber ul li{
+    list-style: none;
+    font-size: 18px;
+    margin-left: 75px;
+    line-height: 35px;
+}
+
+.sidber ul li a{
+    text-decoration: none;
+}
+.footer{
+    background: #2D90B0;
+}
+.sec-1{
+    text-align: center;
+}
+.sec-1 h2{
+    font-size: 20px;
+      color: #fff;
+}
+.CCC{
+    font-size: 12px;
+}
+.CCC a{
+    text-decoration: none;
+    color: #fff;
+}
+.CCC a:hover{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+.sec-2 p{
+    padding-left: 45px;
+    font-size: 20px;
+    padding-top: 5px;
+    color: #fff;
+   
+}
+.sec-2 ul{
+  
+}
+.sec-2 ul li{
+     list-style: none;
+     float: left;
+     margin-right: 10px;
+     padding-top: 0px;
+  
+}
+.Social ul{
+    background: black;  
+    margin-left: 35px;
+    padding:0px;
+}
+.Social ul li{
+     list-style: none;
+     float: left;
+     margin-right: 10px;
+     padding-top: 0px;
+  
+}
+
+@media(max-width:411px){
+    .sidber{
+      background: #ECF0F1;
+     height:280px;
+   }
+            .logo img {
+            margin-left: 0px;
+            height: 60px;
+            width: 60px;
+        }
+            .header{
+                margin-top: 0px;
+              }
+
+                .header h3{
+                    margin-top: 13px;
+                    font-weight: bold;
+                    font-size: 28px;
+                  }
+            .header2 p{
+             margin-top: 12px;
+             margin-left: 96px;
+                }
+            .header1 p {
+            margin-top: 13px;
+            background: #fff;
+            text-align: center;
+            margin-left: 74px;
+            margin-right: 74px;
+            padding: 5px;
+        }
+            .slider img {
+            width: 100%;
+            height: 500px;
+            margin-bottom: -20px;
+            padding: 0px;
+        }
+            .sec-2 p {
+            padding-left: 113px;
+            font-size: 20px;
+            padding-top: 0px;
+            color: #fff;
+        }
+            .Social ul{
+            background: black;  
+            margin-left: 100px;
+            padding:0px;
+        }
+            .sec-2{
+                height:80px;
+            }
+    
+    
+    @media(max-width:360px){
+        .header2 p {
+                margin-top: 12px;
+                margin-left: 76px;
+            }
+        .sec-2 p {
+            padding-left: 96px;
+        }
+        .Social ul{
+            background: black;  
+            margin-left: 90px;
+            padding:0px;
+        }
+        
+}
+}
+
+
+.SFM h2{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.FAP{
+    font-size: 26px;
+}
+.search {
+   
+    height: 38px;
+    Width:450px;
+    border-radius: 25px;
+    border: 2px solid #F0f0f0;
+}
+.search img{
+    float:left;   
+  
+}
+.lab{
+    height:33px;
+    width: 400px;
+    border-color: #fff;
+    border: 0px;
+}
+.Htb{
+   margin-top: 40px ;
+    margin-left: 260px;
+}
+
+@media(max-width:411px){
+    .SFM h2{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 24px;
+    }
+    .FAP{
+        font-size: 20px;
+    }
+    .search {
+   
+    height: 38px;
+    Width:350px;
+    border-radius: 25px;
+    border: 2px solid #F0f0f0;
+    }
+    .search img{
+        float:left;   
+
+    }
+    .lab{
+        height:33px;
+        width: 300px;
+        border-color: #fff;
+        border: 0px;
+    }
+        .Htb{
+         margin-top: 20px ;
+        margin-left: 20px;
+            margin-bottom: 50px;
+    }
+    
+@media(max-width:360px){
+         .search {
+   
+    height: 38px;
+    Width:330px;
+    border-radius: 25px;
+    border: 2px solid #F0f0f0;
+    }
+    .search img{
+        float:left;   
+
+    }
+    .lab{
+        height:33px;
+        width: 280px;
+        border-color: #fff;
+        border: 0px;
+    }
+        .Htb{
+         margin-top: 20px ;
+        margin-left: 0px;
+            margin-bottom: 50px;
+    }
+    }
+    
+}
+
+/* --------Submit page---------- */
+
+.header3 h3{
+    margin-left: 120px;
+    color:#fff;
+    margin-top: 8px;
+}
+.logger{
+    font-size: 17px;
+    padding-left: 50px;
+}
+.log{
+     margin-left: 230px
+        
+}
+.log a{
+    color: #fff;
+    text-decoration: none;
+     font-size:18px;
+}
+.log a:hover{
+    color: #fff;
+    text-decoration: none;
+    font-size:18px;
+}
+
+.SYA{
+    
+    margin-top: 40px;
+}
+.SYA p{
+   
+    text-align: center;
+    font-size: 25px;
+}
+.Form1{
+    padding:25px 5px 45px 125px;
+}
+.Form1 p{
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 15px;
+}
+.Algn{
+    height:30px;
+    width: 240px;
+    border-radius: 7px;
+    
+}  
+.Sbutton{
+    font-size: 20px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.tab{
+    height:40px;
+    width: 180px;
+}
+.tab:hover{
+    color: white;
+    background: green;
+}
+@media(max-width:411px){
+         .header3 h3 {
+         margin-left: 103px;
+        color:#fff;
+        margin-top: 8px;
+      }
+        .log {
+    margin-left: 284px;
+}
+    .Sbutton{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+}
+    .Form1{
+    padding:25px 5px 45px 0px;
+}
+  @media(max-width:360px){
+        .header3 h3 {
+         margin-left: 78px;
+        color:#fff;
+        margin-top: 8px;
+      }
+      .log {
+    margin-left: 230px;
+        }
+    }
+        
+}
+
+
+/* --------Family Flat css code---------- */
+.part1{
+    float: left;
+    width:550px;
+   
+     padding:25px 5px 45px 110px;
+}
+.part1 p{
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.part2{
+
+     width:431px;
+    height: 300px;
+    float: left
+}
+.part2 p{
+   
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.range{
+    font-size: 20px; 
+     margin-left: 105px;
+}
+.range p{
+      padding: 5px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+@media(max-width:411px){
+            .part1{
+            float: left;
+            width:350px;
+       
+             padding:0px 5px 0px 0px;
+        }
+        .part1 p{
+            font-size: 15px;
+            padding: 05px;
+            margin-left: 0px;
+            margin-right: 18px;
+        }
+        .part2{
+             
+             width:300px;
+            height: 120px;
+            float: left
+        }
+        .part2 p{
+
+            font-size: 15px;
+            padding: 5px;
+            margin-left: 5px;
+            margin-right: 40px;
+        }
+
+        .range{
+            font-size: 20px; 
+             margin-left: 0px;
+        }
+        .range p{
+              padding: 5px;
+            margin-left: 15px;
+            margin-right: 20px;
+        }
+    
+    @media(max-width:360px){
+        
+        
+    }
+}
+/* -------- css code---------- */
+
+.profile{
+    background: #ddd;
+    margin:10px 550px 5px 20px;
+    padding:5px;
+}
+
+.Propic img{
+    float:left;
+    height: 70px;
+    width:  70px;
+    border:2px solid #fff;
+}
+.Prodetalis p{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.con{
+    height: 30px;
+    width: 130px;
+}
+.con:hover{
+    background: green;
+    color:black;
+    
+}
+
+@media(max-width:411px){
+    .profile{
+       background: #ddd;
+       margin:0px 0px 5px 0px;
+       padding:5px;
+}
+}
+
